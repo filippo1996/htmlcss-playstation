@@ -1,0 +1,25 @@
+/* header */
+.header{
+    height: 90px;
+}
+
+.header-top{
+    height: 40%;
+    background: black;
+    line-height: 32px;
+    text-align: right;
+}
+
+.header-top .logo{
+    height: 40%;
+    margin-right: 15px;
+}
+
+
+
+
+
+/* debug */
+.debug .header{
+    background: yellow;
+}
