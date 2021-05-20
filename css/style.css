@@ -7,6 +7,74 @@
     border-radius: 20px;
 }
 
+.banner{
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 135px;
+    color: white;
+}
+
+.banner .container > div{
+    padding-top: 220px;
+}
+
+.banner h2{
+    font-size: calc(1.525rem + 3.3vw);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.banner .btn{
+    width: 120px;
+    margin-left: 12px;
+}
+
+.logo-game{
+    width: 290px;
+}
+
+/* responsive banner */
+/* Small sm */
+@media screen and (min-width: 576px){
+    
+    .logo-game{
+        width: 332px;
+    }
+
+    .banner h2{
+        font-weight: 500;
+    }
+}
+
+/* Medium md */
+@media screen and (min-width: 768px){
+
+    .banner h2{
+        font-size: calc(1.425rem + 2.1vw);
+        font-weight: 300;
+    }
+    
+    .logo-game{
+        width: 440px;
+    }
+}
+
+/* Large lg */
+@media screen and (min-width: 1200px){
+
+    .w_lg{
+        width: 442px;
+    }
+    
+    .logo-game{
+        width: 230px;
+    }
+}
+
+
+
 
 /* header */
 .header-top{
@@ -21,11 +89,13 @@
     margin-right: 15px;
 }
 
+/* jumbotron */
+.jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+}
+
 
 
 
 
 /* debug */
-.debug .header{
-    background: yellow;
-}
