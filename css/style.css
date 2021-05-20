@@ -1,10 +1,16 @@
-/* header */
-.header{
-    height: 90px;
+/* common */
+.font_size_ico i{
+    font-size: 1.3rem;
 }
 
+.border_radius-20{
+    border-radius: 20px;
+}
+
+
+/* header */
 .header-top{
-    height: 40%;
+    height: 36px;
     background: black;
     line-height: 32px;
     text-align: right;
