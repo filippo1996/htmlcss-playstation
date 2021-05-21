@@ -33,6 +33,7 @@
 
 .logo-game{
     width: 290px;
+    height: 100%;
 }
 
 /* responsive banner */
@@ -73,6 +74,10 @@
     }
 }
 
+
+.mt_6{
+    margin-top: 6rem;
+}
 
 
 
@@ -124,9 +129,31 @@
     border-radius: 25px;
 }
 
+/* Section news */
+.active-thumb::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid rgb(32, 159, 209);
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    margin-top: 10px;
+}
 
 
 
+
+
+
+
+/* General responsiv */
+/* Medium md */
+@media screen and (min-width: 768px){
+    .px_md-4{
+        padding: 0 1.5rem;
+    }
+}
 
 
 /* debug */
