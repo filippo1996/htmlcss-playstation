@@ -171,6 +171,21 @@
 }
 
 
+/* section banner small */
+.small-banner{
+    height: 400px;
+}
+
+.bg-grey{
+    background: #BEBCBB;
+}
+
+.small-banner .logo{
+    width: 80%;
+}
+
+
+
 
 
 
@@ -184,4 +199,11 @@
 }
 
 
-/* debug */
+/* Large lg */
+@media screen and (min-width: 1200px){
+
+    .w_lg-unset{
+        width: unset !important;
+    }
+}
+
