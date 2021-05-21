@@ -103,14 +103,14 @@
     background-image: url(../img/jumbo-bg.png);
 }
 
-.card-jumbo{
+.card-game{
     position: relative;
     transition: all 0.4s;
     border-radius: 20px;
     bottom: 0;
 }
 
-.card-jumbo:hover{
+.card-game:hover{
     bottom: 10px;
     box-shadow: 6px 15px 11px rgb(145, 143, 143);
 }
@@ -159,6 +159,10 @@
     padding-top: 6px;
 }
 
+.title-game{
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
 
 
 
