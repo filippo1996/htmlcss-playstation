@@ -83,6 +83,10 @@
     margin-top: 6rem;
 }
 
+.cursor-pointer{
+    cursor: pointer;
+}
+
 
 
 /* header */
@@ -184,7 +188,10 @@
     width: 80%;
 }
 
-
+/* banner now */
+.bg_blue{
+    background: #071432;
+}
 
 
 
