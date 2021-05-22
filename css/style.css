@@ -193,6 +193,14 @@
     background: #071432;
 }
 
+/* footer */
+.footer{
+    height: 400px; /* da eliminare */
+}
+
+.bk_blue{
+    background: #00439c;
+}
 
 
 
