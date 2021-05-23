@@ -194,18 +194,31 @@
 }
 
 /* footer */
-.footer{
-    height: 400px; /* da eliminare */
-}
 
 .bk_blue{
     background: #00439c;
 }
 
+.ico_language{
+    width: 25px;
+}
+
+.nav_white .text{
+    color: white;
+    text-decoration: none;
+}
+
+.width_6{
+    width: 6rem;
+}
+
+.width_10{
+    width: 10rem;
+}
 
 
 
-/* General responsiv */
+/* General responsive */
 /* Medium md */
 @media screen and (min-width: 768px){
     .px_md-4{
