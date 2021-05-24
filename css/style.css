@@ -36,6 +36,19 @@
     height: 100%;
 }
 
+.angle-down::after{
+    font-family: "Font Awesome 5 Free";
+    content: '\f107';
+    display: inline-block;
+    font-weight: 900;
+}
+
+.angle-down[aria-expanded="true"]::after{
+    content: '\f106';
+}
+
+
+
 /* responsive banner */
 /* Small sm */
 @media screen and (min-width: 576px){
@@ -110,7 +123,7 @@
 /* responsive al menu dinamico */
 @media (min-width: 992px) {
     .overflow{
-        overflow: visible;
+        overflow-y: visible;
         height: auto;
     }
 }
