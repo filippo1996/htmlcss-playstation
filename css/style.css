@@ -102,6 +102,46 @@
     margin-right: 15px;
 }
 
+.megamenu{
+    width: 100%;
+    margin: 0 !important;
+    border: 0;
+    border-bottom: 1px solid black;
+    border-radius: unset;
+}
+
+.navbar-megamenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.item-megamenu{
+    flex-basis: 128px;
+    margin-bottom: 2rem;
+}
+
+.card-menu{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.card-menu img{
+    width: 68px;
+}
+
+.navbar-megamenu .list a::before{
+    content: '';
+    display: inline-block;
+    background: #0072ce;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
 /* jumbotron */
 .background-img-1{
     background-image: url(../img/jumbo-bg.png);
