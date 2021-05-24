@@ -102,6 +102,19 @@
     margin-right: 15px;
 }
 
+.overflow{
+    overflow-y: auto;
+    height: 430px;
+}
+
+/* responsive al menu dinamico */
+@media (min-width: 992px) {
+    .overflow{
+        overflow: visible;
+        height: auto;
+    }
+}
+
 .megamenu{
     width: 100%;
     margin: 0 !important;
@@ -124,7 +137,10 @@
 
 .card-menu{
     text-align: center;
-    border: 1px solid black;
+}
+
+.card-menu:hover{
+    box-shadow: 5px 7px 16px 10px rgb(145, 143, 143);
 }
 
 .card-menu img{
@@ -261,6 +277,7 @@
 /* General responsive */
 /* Medium md */
 @media screen and (min-width: 768px){
+
     .px_md-4{
         padding: 0 1.5rem;
     }
